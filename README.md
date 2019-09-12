@@ -19,7 +19,7 @@ This is a sina weibo spider built by scrapy
 
 
 ## Change log
-- 2019/05/07 添加账号池的示例代码
+- 2019/05/07 添加IP池的示例代码
 - 2019/05/07 全面修复历史问题，增加用户的标签，评论的点赞，微博的发布平台/表情/图片/视频等新的字段
 - 2018/10/13 添加[微博搜索分支](https://github.com/nghuyong/WeiboSpider/tree/search)
 - 2018/9/30 添加布隆过滤器
@@ -41,7 +41,7 @@ pip install -r requirements.txt
 除此之外，还需要安装mongodb和phantomjs，这个自行Google把
 
 ### 购买账号
-小号购买地址(**访问需要翻墙**): http://www.xiaohao.shop/ 
+小号购买地址: http://www.wbxiaohao.com/ 更多小号购买的网站参考[这里](https://github.com/CUHKSZ-TQL/WeiboSpider_SentimentAnalysis/issues/2#issuecomment-505842345).
 
 需要购买**绑号无验证码类型的微博小号**（重点！）
 
